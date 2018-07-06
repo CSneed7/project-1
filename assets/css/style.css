@@ -2,19 +2,36 @@ button,
 div,
 form,
 input {
-  margin: 10px;
+	margin: 15px;
 }
 
 .container {
-  float: left;
+	float: left;
 }
 
+
 h1 {
-  color: white;
-  text-align: center;
+	font-family: 'Bangers', cursive;
+	color: white;
+	text-align: center;
+	font-size: 100px;
   
 }
 
-body {
-  background-color: rgb(189, 58, 58);
+.navbar {
+	background-image: url("../images/BackgroundOne.png");
+	background-size: cover;
+}
+
+main {
+
+	background: url("../images/bg2.png");
+	opacity: 0.90;
+	filter: alpha(opacity=50); 
+	height: 1000px;
+	margin-top: -20px;
+}
+
+#searchBtn {
+	margin-bottom: none;
 }
