@@ -21,17 +21,34 @@ h1 {
 .navbar {
 	background-image: url("../images/BackgroundOne.png");
 	background-size: cover;
+	/* border: 3px solid rgb(177, 18, 18); */
+	padding: 48px;
+
+	/* Removes the rounded edges from the navbar */
+	-webkit-border-radius: 0; 
+	-moz-border-radius: 0;
+	border-radius: 0;
+	
+
 }
 
 main {
+	background-color: black;
 
-	background: url("../images/bg2.png");
-	opacity: 0.90;
-	filter: alpha(opacity=50); 
+	/* background: url("../images/bg1.png"); */
+	/* opacity: 0.90;
+	filter: alpha(opacity=90);  */
+
 	height: 1000px;
 	margin-top: -20px;
 }
 
 #searchBtn {
-	margin-bottom: none;
+	/* background-color:#000000;
+	color: white; */
+	margin-left: -20px;
+}
+
+main {
+	color: rgb(179, 22, 22);
 }
