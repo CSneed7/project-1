@@ -6,15 +6,10 @@
 	font-size: 15px;
 } 
 
-button,
-div,
+.container-fluid,
 form,
 input {
-	margin: 15px;
-}
-
-.container {
-	float: left;
+	margin: 40px;
 }
 
 h1 {
@@ -31,10 +26,24 @@ h1 {
 	padding: 48px;
 	/* border: 3px solid rgb(177, 18, 18); */
 
-	/* Removes the rounded edges from the navbar */
+/* Removes the rounded edges from the navbar */
 	-webkit-border-radius: 0; 
 	-moz-border-radius: 0;
 	border-radius: 0;
+}
+
+/* Sets the search text box and the actucal button in the navbar marvel image vertically */
+.navbar-form {
+	margin-top: 60px;
+}
+
+/* Sets the search text box closer to the actual button horizontally */
+#searchBtn {
+	margin-left: -30px;
+
+	/* Changes the background color and text of the button
+	background-color:#000000;
+	color: white; */
 }
 
 main {
@@ -46,16 +55,22 @@ main {
 
 	height: 1000px;
 	margin-top: -20px;
+	color: rgb(167, 17, 17);
 }
 
-#searchBtn {
-	/* Changes the background color and text of the button
-	background-color:#000000;
-	color: white; */
-
-	margin-left: -20px;
+.left-col {
+	width: 50%;
+	min-height: 200px;
+	border-right: 1px solid rgb(167, 17, 17); /* Vertical Border */
+	float: left;
+	box-sizing: border-box;
+	margin-top: 15px;
 }
-
-main {
-	color: rgb(179, 22, 22);
+  
+.right-col {
+	width: 50%;
+	min-height: 200px;
+	float: right;
+	color: white;
+	margin-top: 15px;
 }
