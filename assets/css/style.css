@@ -9,7 +9,6 @@ input {
 	float: left;
 }
 
-
 h1 {
 	font-family: 'Bangers', cursive;
 	color: white;
@@ -21,15 +20,13 @@ h1 {
 .navbar {
 	background-image: url("../images/BackgroundOne.png");
 	background-size: cover;
-	/* border: 3px solid rgb(177, 18, 18); */
 	padding: 48px;
+	/* border: 3px solid rgb(177, 18, 18); */
 
 	/* Removes the rounded edges from the navbar */
 	-webkit-border-radius: 0; 
 	-moz-border-radius: 0;
 	border-radius: 0;
-	
-
 }
 
 main {
@@ -44,8 +41,10 @@ main {
 }
 
 #searchBtn {
-	/* background-color:#000000;
+	/* Changes the background color and text of the button
+	background-color:#000000;
 	color: white; */
+
 	margin-left: -20px;
 }
 
