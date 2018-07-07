@@ -1,3 +1,11 @@
+#banner {
+	background: black;
+	color:	white;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+} 
+
 button,
 div,
 form,
