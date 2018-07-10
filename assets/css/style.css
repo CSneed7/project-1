@@ -17,7 +17,6 @@ h1 {
 	color: white;
 	text-align: center;
 	font-size: 100px;
-  
 }
 
 .navbar {
@@ -32,18 +31,14 @@ h1 {
 	border-radius: 0;
 }
 
-/* Sets the search text box and the actucal button in the navbar marvel image vertically */
+/* adjusts the search text box and the actual button in the navbar marvel image vertically */
 .navbar-form {
 	margin-top: 60px;
 }
 
-/* Sets the search text box closer to the actual button horizontally */
-#searchBtn {
+/* Adjusts the search text box closer to the actual button horizontally */
+#find-comic {
 	margin-left: -30px;
-
-	/* Changes the background color and text of the button
-	background-color:#000000;
-	color: white; */
 }
 
 main {
