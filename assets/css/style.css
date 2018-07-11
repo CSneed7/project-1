@@ -1,0 +1,71 @@
+#banner {
+	background: black;
+	color:	white;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+} 
+
+.container-fluid,
+form,
+input {
+	margin: 40px;
+}
+
+h1 {
+	font-family: 'Bangers', cursive;
+	color: white;
+	text-align: center;
+	font-size: 100px;
+}
+
+.navbar {
+	background-image: url("../images/BackgroundOne.png");
+	background-size: cover;
+	padding: 48px;
+	/* border: 3px solid rgb(177, 18, 18); */
+
+/* Removes the rounded edges from the navbar */
+	-webkit-border-radius: 0; 
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+/* adjusts the search text box and the actual button in the navbar marvel image vertically */
+.navbar-form {
+	margin-top: 60px;
+}
+
+/* Adjusts the search text box closer to the actual button horizontally */
+#find-comic {
+	margin-left: -30px;
+}
+
+main {
+	background-color: black;
+
+	/* background: url("../images/bg1.png"); */
+	/* opacity: 0.90;
+	filter: alpha(opacity=90);  */
+
+	height: 1000px;
+	margin-top: -20px;
+	color: rgb(167, 17, 17);
+}
+
+.left-col {
+	width: 50%;
+	min-height: 200px;
+	border-right: 1px solid rgb(167, 17, 17); /* Vertical Border */
+	float: left;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+  
+.right-col {
+	width: 50%;
+	min-height: 200px;
+	float: right;
+	color: white;
+	margin-top: 15px;
+}
