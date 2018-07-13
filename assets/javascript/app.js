@@ -143,8 +143,12 @@ $("#find-comic").on("click", function (event) {
 			var image = $("<img>").attr("src", imgURL);
 			movieDiv.append(image);
 			$("#comic-view").append(movieDiv);
+
 		});
 
 	//
+
+		}
+
 });
 

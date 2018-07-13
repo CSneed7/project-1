@@ -48,7 +48,7 @@ main {
 	/* opacity: 0.90;
 	filter: alpha(opacity=90);  */
 
-	height: 1000px;
+	height: 650px;
 	margin-top: -20px;
 	color: rgb(167, 17, 17);
 }
@@ -69,3 +69,8 @@ main {
 	color: white;
 	margin-top: 15px;
 }
+
+/* #searched-table {
+	background: rgb(167, 17, 17);
+
+} */
