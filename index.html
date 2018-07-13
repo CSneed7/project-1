@@ -9,25 +9,27 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
 </head>
 
 <body>
 	<header>
 
 		<div id="banner">
-			<marquee behavior="scroll" direction="left">Welcome to the Comic-Grab Search Page</marquee>
+			<marquee behavior="scroll" direction="left">
+				Welcome to the Comic-Grab Search Page</marquee>
 		</div>
 
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header"></div>
-				<h1 class="animated lightSpeedIn">Comic-Grab</h1>
+				<h1 class="animated zoomIn">Comic-Grab</h1>
 
 				<div class="container">
 					<div class="row">
 						<form class="navbar-form navbar-right">
 							<div class="form-group">
-								<input id="searchTerm" type="text" class="form-control" placeholder="Choose Your Hero..." value="">
+								<input id="comic-input" type="text" class="form-control" placeholder="Choose Your Hero..." value="">
 							</div>
 							<button type="submit" class="btn btn-danger" id="find-comic">Submit</button>
 						</form>
@@ -50,7 +52,32 @@
 				<div id="hotmess" class="right-col col-md-6">
 						<ul id="hotmessdisplay"></ul>
 				</div>
-			
+
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+
+		<div class="container" id="searched-table">
+			<div class="card">
+				<h2 class="card-header" style="color: white;">Previously Searched:</h2>
+				<div class="card-body">
+					<table class="table">
+						<thead>
+							<tr id="tr">
+								<th scope="col">Name:</th>
+								<th scope="col">Comic Listing:</th>
+								<th scope="col">eBay Link:</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+						<br>
+					</table>
+				</div>
 			</div>
 		</div>
 
