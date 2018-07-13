@@ -64,7 +64,7 @@ $("#find-comic").on("click", function (event) {
 				comicDiv.append(p);
 				comicDiv.prepend(comicImage);
 
-				$("#movies-view").prepend(comicDiv);
+				$("#comic-view").prepend(comicDiv);
 
 				checkEbay(output[i].name);
 			}
@@ -101,6 +101,6 @@ $("#find-comic").on("click", function (event) {
 			var imgURL = response.Poster;
 			var image = $("<img>").attr("src", imgURL);
 			movieDiv.append(image);
-			$("#movies-view").append(movieDiv);
+			$("#comic-view").append(movieDiv);
 		});
 });
