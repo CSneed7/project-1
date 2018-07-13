@@ -29,12 +29,16 @@ function checkEbay(comicName){
 			// $("#hotmessdisplay").on("click", function () {
 			// 	var href = $(this).find('a').attr('href');
 			// });
+			//
 		});
 }
 
 $("#find-comic").on("click", function (event) {
 	event.preventDefault();
-	var comic = $("#searchTerm").val().trim();
+	$("#comic-view").empty();
+	$("#hotmessdisplay").empty();
+
+	var comic = $("#comic-input").val().trim();
 
 	// MARVEL API
 	var ts = Date.now();
