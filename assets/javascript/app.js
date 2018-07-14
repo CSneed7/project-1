@@ -38,11 +38,8 @@ function checkEbay(comicName, comicIndex) {
 
 			var ebayLink = $("<li>").html($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title));
 			$("#hotmessdisplay").prepend(ebayLink);
-<<<<<<< HEAD
-			$(".link_" + comicIndex).prepend($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title));
-=======
-			$("#link_" + comicIndex).prepend(ebayLink);
->>>>>>> 2b735cb1e33d335fae756573aa8df7b63cc5f286
+			$(".link_" + comicIndex).prepend($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title))
+
 			//	}
 			// $("#hotmessdisplay").on("click", function () {
 			// 	var href = $(this).find('a').attr('href');
@@ -149,8 +146,6 @@ $("#find-comic").on("click", function (event) {
 			$("#comic-view").append(movieDiv);
 
 		});
-
-	//
 
 });
 
