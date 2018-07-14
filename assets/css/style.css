@@ -12,6 +12,10 @@ input {
 	margin: 40px;
 }
 
+body {
+	background: black;
+}
+
 h1 {
 	font-family: 'Bangers', cursive;
 	color: white;
