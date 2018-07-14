@@ -12,7 +12,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 
-
 </head>
 
 <body>
@@ -32,12 +31,14 @@
 					<div class="row">
 						<form class="navbar-form navbar-right">
 							<div class="form-group">
-								<input id="comic-input" type="text" class="form-control" placeholder="Choose Your Hero..." value="">
+								<input id="comic-input" type="text" class="form-control" placeholder="Choose Your Hero..." required>
 							</div>
 							<button type="submit" class="btn btn-danger" id="find-comic">Submit</button>
 						</form>
 					</div>
+
 				</div>
+			</div>
 			</div>
 		</nav>
 
@@ -53,7 +54,7 @@
 				</div>
 
 				<div id="hotmess" class="right-col col-md-6">
-						<ul id="hotmessdisplay"></ul>
+					<ul id="hotmessdisplay"></ul>
 				</div>
 
 			</div>
@@ -70,6 +71,7 @@
 
 					<table class="table" id="comic-table">
 
+<<<<<<< HEAD
 						<thead>
 							<tr id="tr">
 								<th scope="col">Name:</th>
@@ -78,15 +80,27 @@
 							</tr>
 						</thead>
 						<tbody>
+=======
 
-						</tbody>
-						<br>
-					</table>
+							<thead>
+								<tr id="tr">
+									<th scope="col">Name:</th>
+									<th scope="col">Comic Listing:</th>
+									<th scope="col">eBay Link:</th>
+								</tr>
+							</thead>
+							<tbody>
+
+							</tbody>
+							<br>
+						</table>
+>>>>>>> 2b735cb1e33d335fae756573aa8df7b63cc5f286
+
 				</div>
 			</div>
 		</div>
-
 	</main>
+
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="jquery.md5.js"></script>
