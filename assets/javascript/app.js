@@ -37,7 +37,7 @@ function checkEbay(comicName, comicIndex) {
 
 
 			var ebayLink = $("<li>").html($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title));
-			// $("#hotmessdisplay").prepend(ebayLink);
+			$("#hotmessdisplay").prepend(ebayLink);
 			$("#link_" + comicIndex).prepend(ebayLink);
 			//	}
 			// $("#hotmessdisplay").on("click", function () {
@@ -147,8 +147,6 @@ $("#find-comic").on("click", function (event) {
 		});
 
 	//
-
-		}
 
 });
 
