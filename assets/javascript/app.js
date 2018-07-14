@@ -149,8 +149,6 @@ $("#find-comic").on("click", function (event) {
 
 		});
 
-	//
-
 });
 
 
