@@ -37,8 +37,8 @@ function checkEbay(comicName, comicIndex) {
 
 
 			var ebayLink = $("<li>").html($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title));
-			// $("#hotmessdisplay").prepend(ebayLink);
-			$("#link_" + comicIndex).prepend(ebayLink);
+			$("#hotmessdisplay").prepend(ebayLink);
+			$(".link_" + comicIndex).prepend($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title));
 			//	}
 			// $("#hotmessdisplay").on("click", function () {
 			// 	var href = $(this).find('a').attr('href');
@@ -106,8 +106,8 @@ $("#find-comic").on("click", function (event) {
 				var comicL = childSnapshot.val().list;
 				var comicE = childSnapshot.val().comicIndex;
 
-				$("#comic-table > tbody").append("<tr><td>" + comicC + "</td><td>" + comicL + '</td><td class="link_" + comicE>' +
-					comicE + "</td></tr>"); // + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
+				$("#comic-table > tbody").append("<tr><td>" + comicC + "</td><td>" + comicL + '</td><td class="link_' + comicE + '">' 
+					+ "</td></tr>"); // + "</td><td>" + tArrival + "</td><td>" + tMinutes + "</td></tr>");
 			})
 		});
 
@@ -148,7 +148,7 @@ $("#find-comic").on("click", function (event) {
 
 	//
 
-		}
-
 });
+
+
 
