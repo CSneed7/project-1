@@ -38,11 +38,7 @@ function checkEbay(comicName, comicIndex) {
 
 			var ebayLink = $("<li>").html($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title));
 			$("#hotmessdisplay").prepend(ebayLink);
-<<<<<<< HEAD
 			$(".link_" + comicIndex).prepend($('<a>').attr('target', '_blank').attr("href", hotmess).text(parseresponse.Product[0].Title));
-=======
-			$("#link_" + comicIndex).prepend(ebayLink);
->>>>>>> 2b735cb1e33d335fae756573aa8df7b63cc5f286
 			//	}
 			// $("#hotmessdisplay").on("click", function () {
 			// 	var href = $(this).find('a').attr('href');
@@ -57,6 +53,9 @@ $("#find-comic").on("click", function (event) {
 	$("#hotmessdisplay").empty();
 
 	var comic = $("#comic-input").val().trim();
+	if ($("#comic-input").val().trim() == "") {
+		return false;
+	}
 
 	// MARVEL API
 	var ts = Date.now();
